@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>PARIS</title>
+		<link rel="stylesheet" type="text/css" href="nourriture.css">
+        <script>
+
+
+        </script>
+	</head>
+    <body>
+    <div class="formulaire2">
+    <h1>Formulaire de réservation</h1>
+    <p>Pour tout problème ou question n'hésitez pas à nous conctacter par téléphone au 0936488523, par mail ou sur nos réseaux sociaux, se trouvant en bas de page.</p>
+    <form name="form" action="reservation.php" method="POST">
+        
+        <div>
+            <label for="nom">Nom*</label>
+            <input type="text" id="nom" name="nom" placeholder="xx"required>
+        </div>
+        <div>
+            <label for="prenom">Prénom*</label>
+            <input type="text" id="prenom" name="prenom" placeholder="xx" required>
+        </div>
+        <div>
+            <label for="telephone">Téléphone*</label>
+            <input type="text" id="telephone" name="telephone" placeholder="0x xx xx xx xx">
+        </div>
+        <div>
+            <label for="adresspostal">Adresse Postale*</label>
+            <textarea rowls="3" cols="20"  id="adresse" name="adresse" placeholder="xx avenue de la xx" required></textarea>
+        </div>
+        <div>
+            <label for="codepostal">Code Postal*</label>
+            <textarea rowls="3" cols="20"  id="codepostal" name="codepostal" placeholder="75001 Paris" required></textarea>
+        </div>
+        <div>
+            <label for="reservation">Où Réserver*</label>
+            <select name="reservation" id="reservation" required>
+                <option  value="" disabled selected hidden>quel lieu</option>
+                <option value="1">Frog Beer</option>
+                <option value="2">Poilâne</option>
+                <option value="3">La Fromagerie</option>
+                <option value="4">Ladurée</option>
+            </select>
+        </div>
+        <div>
+            <label for="nbpersonne">Nombre de personne*</label>
+            <select name="nbpersonne" id="nbpersonne" required>
+                <option  value="" disabled selected hidden>Choisissez le nombre de personne</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div>
+            <label for="mail">Mail*</label>
+            <textarea rowls="3" cols="20" id="mail" name="mail" placeholder="xx@xx.xx" required></textarea>
+        </div>
+        <div>
+            <label for="Demande*">Demande*</label>
+            <textarea rowls="3" cols="20"  id="demande" name="demande" placeholder="xx" required></textarea>
+        </div>
+        <br><br>
+
+    
+    <input  class="button1" name="annuler" type="reset" value="Annuler"/>
+    <input  class="button1" name="inscrire" type="submit" value="Réserver" >
+
+    
+    </form>
+</div></body>
+</html>
