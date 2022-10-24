@@ -1,0 +1,28 @@
+h1 {
+    animation-duration: 4s;
+    animation-name: animation;
+    color:white;
+  }
+  
+  @keyframes animation {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 2em;
+    border: 3px solid #CCC;
+    border-radius: 2em;
+  }
+  .image{
+    transform: rotate3d(1, 1, 1, 5deg);
+  }
+  
