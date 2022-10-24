@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Inscription | Guide de Paris </title>
+    <link rel="stylesheet" type="text/css" href="css/connex.css">
+    <link rel='stylesheet' type="text/css" href='css/home.css'>
+
+
+    
+</head>
+<body>
+
+
+
+<body>
+	<section>
+		<h3>Veuillez vous inscrire</h3>
+		<form action="php/insc.php" method="POST"  class="Entrer">
+			<input type="text" id="name" name="nom" required>
+			<input type="text" id="prenom" name="prenom" required>
+			<input type="password" id="mdp1" name="mdp1">
+			<input type="submit" onclick="return validateForm()" value="s'inscrire" action="php/insc.php" method="POST">
+		</form>
+	</section>
+	
+
+
+
+<script type="text/javascript" language="javascript">
+
+	function validateForm(){
+
+		var nom=document.getElementById("nom").value;
+		var prenom=document.getElementById("prenom").value;
+		var a=document.getElementById("mdp1").value;
+		var m=0;
+
+	if (x== ""){
+	document.getElementById("nom").focus();
+	document.getElementById("nom").style.border="2px solid red";
+	}else if (x!= ""){
+	document.getElementById("nom").focus();
+	document.getElementById("nom").style.border="2px solid green";
+	m=m+1;
+	}
+
+
+	if (y== ""){
+	document.getElementById("prenom").focus();
+	document.getElementById("prenom").style.border="2px solid red";
+
+	}else if (y!= ""){
+	document.getElementById("prenom").focus();
+	document.getElementById("prenom").style.border="2px solid green";
+	m=m+1;
+	}
+
+
+
+	if (m==2){
+	alert("Votre profil a bien était enregistrer , nous vous souhaitons la bienvenue  " + y);
+	}
+	}
+
+</script>
+
+
+
+</body>
+</html>

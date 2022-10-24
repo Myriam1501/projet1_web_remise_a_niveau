@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(77, 11, 11);
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+/* *********** Barre de Navigation *********** */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(77, 11, 11);
+
+    width: 100%;
+    background-color: #0f2b7898;
+    box-shadow: 0px 0px 25px #0f2b7898;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav .naviguation{
+    align-items: baseline;
+    margin-left: 220px;
+
+}
+
+nav .naviguation a {
+    color: #fff;
+    margin-right: 10px;
+    border-left: 2px solid brown;
+    padding-left: 5px ;
+    font-size: 18px;
+    
+}
+
+nav a:hover{
+    color: #555;
+}
+
+
+
+/* *********** Images et Logo *********** */
+
+header {
+
+    background: url('https://adamsons.com/wp-content/uploads/2017/11/shutterstock_114479500-1800x1013.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 25px #0f2b7898;
+    height: 70vh;
+    color: white;
+
+}
+
+
+header h4 {
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 0px 5px 0px 5px;
+    border-color: white;
+}
+
+
+.corps{
+    margin: 50px 20px;
+    padding: 20px;
+    background: #0f2b7898;
+    box-shadow: rgb(219, 40, 40);
+}
+
+.box{
+    padding: 10px;
+    margin:10px;
+    background-color: azure;
+}
+
+
+

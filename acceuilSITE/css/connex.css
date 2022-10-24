@@ -1,0 +1,61 @@
+/*head*/
+
+
+.contenant {
+    position: relative;
+    text-align: center;    
+    color: white;
+    font-family: 'Playfair Display', serif;
+    height: 300px;
+    font-size: 1.3em;
+  }
+  
+  .contenant img{
+  
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+  
+    }
+  
+  .contenant .texte_centrer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+  body{
+      background-color: black;
+      color: whitesmoke;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+  }
+  
+  input{
+      padding: 5px;
+      margin: 20px ;
+      border: none;
+      background-color: black;
+      border-bottom: 2px solid whitesmoke;
+      transition: 6s;
+      color: white;
+      outline: none;
+      width: 37%;
+      align-items: center
+  }
+  textarea{
+      padding: 5px;
+      margin: 20px 0;
+      border: none;
+      background-color: black;
+      border-bottom: 2px solid whitesmoke;
+      color: white;
+      outline: none;
+      width: 78%;
+  
+  }
+
+  .Entrer{padding: 100px 200px;}
+  
